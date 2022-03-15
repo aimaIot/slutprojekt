@@ -1,2 +1,0 @@
-# slutprojekt
-Slutprojekt för webbutveckling
