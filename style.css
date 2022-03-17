@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+/*
+----FONTS----
+
+ Main font: font-family: 'Fira Sans', sans-serif;
+
+----COLORS----
+
+Dark blue: #0a3665
+Bright blue: #096aaf
+Bright red: rgb(230, 26, 77)
+*/
+
+body{
+    margin: 0;
+}
+
+h1{
+    margin: 0;
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+    text-align: center;
+    padding: 25px 0 25px 0;
+}
+
+.header{
+    background-color: #0a3665;
+    display: flex;
+    justify-content: center;
+}
+
+nav{
+    display: flex;
+    background-color: #096aaf;
+}
+
+nav a, nav a:visited{
+    padding: 10px 39.5px 10px 39.5px;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover{
+    color: white;
+    background-color: #07548c;
+}
+
+p{
+    font-family: 'Fira Sans', sans-serif;
+}
+
+h3{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.teamList{
+    display: flex;
+    justify-content: center;
+}
+
+.teamList img{
+    height: 60px;
+    width: 60px;
+    margin-right: 20px;
+}
