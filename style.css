@@ -33,6 +33,7 @@ h1{
 nav{
     display: flex;
     background-color: #096aaf;
+    justify-content: center;
 }
 
 nav a, nav a:visited{
@@ -60,10 +61,22 @@ h3{
 .teamList{
     display: flex;
     justify-content: center;
+    margin-bottom: 50px;
 }
 
 .teamList img{
     height: 60px;
     width: 60px;
-    margin-right: 20px;
+    margin-right: 25px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 50px;
+    grid-row-gap: 75px;
+}
+
+.ShopItem{
 }
