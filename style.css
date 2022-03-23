@@ -10,10 +10,15 @@
 Dark blue: #0a3665
 Bright blue: #096aaf
 Bright red: rgb(230, 26, 77)
+Bright red text: rgb(210, 57, 31)
 */
 
 body{
     margin: 0;
+}
+
+p{
+    font-family: 'Fira Sans', sans-serif;
 }
 
 h1{
@@ -47,15 +52,15 @@ nav a:hover{
     background-color: #07548c;
 }
 
-p{
-    font-family: 'Fira Sans', sans-serif;
-}
-
 h3{
     font-family: 'Fira Sans', sans-serif;
     font-size: 20px;
     text-align: center;
     margin-top: 30px;
+}
+
+h5{
+    font-family: 'Fira Sans', sans-serif;
 }
 
 .teamList{
@@ -72,11 +77,21 @@ h3{
 
 .container{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 50px;
-    grid-row-gap: 75px;
+    grid-row-gap: 100px;
 }
 
-.ShopItem{
+.shopItem p{
+    color: rgb(210, 57, 31);
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+
+em{
+    color: black;
+    font-size: 17px;
+    opacity: 0.8;
+    text-decoration: line-through;
 }
