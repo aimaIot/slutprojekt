@@ -70,8 +70,8 @@ h5{
 }
 
 .teamList img{
-    height: 60px;
-    width: 60px;
+    max-height: 60px;
+    max-width: 60px;
     margin-right: 25px;
 }
 
