@@ -35,25 +35,23 @@ h1{
     justify-content: center;
 }
 
-.header.hide {
-    top: -100px;
-}
-
 nav{
     display: flex;
-    background-color: #096aaf;
     justify-content: center;
+    background-color: #096aaf;
 }
 
 nav a, nav a:visited{
     padding: 10px 39.5px 10px 39.5px;
     text-decoration: none;
     color: white;
+    transition: background-color ease .5s;
 }
 
 nav a:hover{
     color: white;
     background-color: #07548c;
+   
 }
 
 h3{
@@ -80,6 +78,12 @@ h5{
     width: auto;
     margin-right: auto;
     margin-left: auto;
+    transition: transform 0.1s ease-in-out;
+}
+
+.teamList img:hover{
+    transform: translateY(-0.5rem) scale(1.0125);
+
 }
 
 .container{
@@ -88,6 +92,7 @@ h5{
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 50px;
     grid-row-gap: 100px;
+   
 }
 
 .shopItem p{
