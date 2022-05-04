@@ -67,6 +67,8 @@ h5{
 
 .teamList{
     display: flex;
+    align-items: stretch;
+    width: 100%;
     justify-content: center;
     margin-bottom: 50px;
 }
@@ -74,7 +76,7 @@ h5{
 .teamList img{
     max-height: 60px;
     height: auto;
-    max-width: 60px;
+    max-width: 100%;
     width: auto;
     margin-right: auto;
     margin-left: auto;
@@ -106,4 +108,14 @@ em{
     font-size: 17px;
     opacity: 0.8;
     text-decoration: line-through;
+}
+
+hr{
+    margin-top: 100px;
+    margin-left: 10%;
+    width: 80%;
+}
+
+footer{
+    background-color: #0a3665;
 }
