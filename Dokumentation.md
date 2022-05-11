@@ -1,3 +1,12 @@
+--Syfte--
+Basketsida som visar de topp 10 spelarna genom tiderna, visa stats och annat
+
+--Projektbeskrivning--
+Sidan var ganska enkel att göra men jag lärde mig lite mer om flexbox och grids. Jag använde mig även av nya properties som box-shadow. Arbetet fick mig också att få en bättre förståelse om när man skulle använda grid eller flexbox.
+
+--Begränsningar--
+Kategori knapparna fungerar inte (nav).
+
 // Vecka 1
 Första veckan så kom jag på ideér och tog inspiration från nbastore.eu.
 
