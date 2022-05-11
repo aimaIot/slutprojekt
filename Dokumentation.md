@@ -16,9 +16,7 @@ Försökte komma på med nya idéer för sidan men lyckades inte komma på någr
 Jag la till några effekter för att sidan skulle se bättre ut, till exempel mina hover effects på lag listan och på nav.
 
 // Vecka 6
+Ändra några saker på sidan
 
 // Vecka 7
-
-// Vecka 8
-
-// Vecka 9
+Bug fixar med mediaquery så att sidan såg bra ut oavsett hur stor din skärm var.
